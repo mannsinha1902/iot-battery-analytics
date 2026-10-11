@@ -1,0 +1,9 @@
+[project]
+name = "iot-battery-analytics"
+version = "1.0.0"
+description = "Synthetic IoT device battery performance analytics"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
